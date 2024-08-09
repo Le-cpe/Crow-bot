@@ -1,0 +1,6 @@
+{
+  "token": "Your token",
+  "prefix": "+",
+  "autoRole": "LeaveBlank",
+  "welcomeChannel": "LeaveBlank" 
+}
