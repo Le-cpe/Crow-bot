@@ -24,8 +24,8 @@ Avant de commencer, assurez-vous que vous avez les éléments suivants :
 1. **Clonez le dépôt :**
 
     ```bash
-    git clone https://github.com/yourusername/CrowBot.git
-    cd CrowBot
+    https://github.com/Le-cpe/Crow-bot.git
+    cd Crow-bot
     ```
 
 2. **Installez les dépendances :**
@@ -34,28 +34,9 @@ Avant de commencer, assurez-vous que vous avez les éléments suivants :
     npm install
     ```
 
-3. **Créez un fichier `.env` à la racine du projet et ajoutez votre token Discord :**
-
-    ```plaintext
-    DISCORD_TOKEN=your-discord-bot-token
-    ```
-
-4. **Configurez la base de données et les fichiers de configuration si nécessaire.**
-
 ## Configuration
 
-1. **Configurer le fichier de configuration (`config.json`) :**
-
-   Placez vos paramètres de configuration (comme les ID de salons, rôles, etc.) dans le fichier `config.json`. Voici un exemple :
-
-    ```json
-    {
-        "welcomeChannel": "123456789012345678",
-        "autoRole": "987654321098765432"
-    }
-    ```
-
-2. **Lancer le bot :**
+1. **Lancer le bot :**
 
     ```bash
     npm start
