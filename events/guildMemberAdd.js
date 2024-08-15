@@ -21,9 +21,9 @@ module.exports = {
             if (role) {
                 try {
                     await member.roles.add(role);
-                    console.log(`Le rôle ${role.name} a été attribué à ${member.user.tag}.`);
+                    console.log(`Le rôle ${role.name} a été attribué à ${member.user.username}.`);
                 } catch (error) {
-                    console.error(`Impossible d'attribuer le rôle ${role.name} à ${member.user.tag}.`, error);
+                    console.error(`Impossible d'attribuer le rôle ${role.name} à ${member.user.username}.`, error);
                 }
             } else {
                 console.log(`Rôle avec l'ID ${roleID} non trouvé.`);
