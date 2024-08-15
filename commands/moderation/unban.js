@@ -36,7 +36,7 @@ module.exports = {
                 }
 
                 await message.guild.bans.remove(userId);
-                await message.reply({ content: `L'utilisateur ${user.user.tag} a été débanni.`, ephemeral: true });
+                await message.reply({ content: `L'utilisateur ${user.user.username} a été débanni.`, ephemeral: true });
             } catch (error) {
                 console.error('Erreur lors du débannissement de l\'utilisateur :', error);
                 await message.reply({ content: 'Il y a eu une erreur lors du débannissement de cet utilisateur.', ephemeral: true });
