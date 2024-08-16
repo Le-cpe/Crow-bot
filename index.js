@@ -7,7 +7,7 @@ const { handleInteractions } = require('./handlers/interactionHandler');
 const client = new Client({intents: 3276799})
 
 client.once('ready', () => {
-    console.log(`Connecté en tant que ${client.user.tag}`);
+    console.log(`Connecté en tant que ${client.user.username}`);
     handleEvents(client); 
     handleCommands(client); 
 });
